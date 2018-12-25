@@ -1,0 +1,75 @@
+header {
+  background-color: yellow;
+  font-weight: bold;
+  width: 100%;
+  border: 5px red solid;
+}
+header.h1{
+  font-size: 20px;
+  color:black;
+}
+nav {
+  background-color: black;
+  width:100%;
+  height: 40px;
+  margin: 0;
+
+}
+nav .a{color: white;}
+a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: serif;
+  padding: 20px 20px 20px 20px;
+  color: white;
+}
+.BackgroundImage {
+  width: 100%;
+  background-color: black;
+}
+.imgCollege {
+  width:80%;
+  padding:0px 10% 0px 10%;
+}
+.Introduction {
+  width:100%;
+  border: 5px red dashed;
+  background-color: white;
+}
+.Introduction p {
+  word-spacing: 0.5em;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+.Imp {
+  font-weight: bold;
+  font-size: 30px;
+  border: 5px red solid;
+  padding-bottom: 60px;
+}
+.nextPage {
+  background-color: blue;
+  border: 5px red solid;
+  font-weight: bold;
+  font-size: 25px;
+  color: black;
+  float:right;
+}
+.socialMediaLinks {
+ position: fixed;
+ top: 50%;
+ float:left;
+}
+.socialMediaLinks img{
+  width:5%;
+}
+@media (max-width:600px) {
+  .nextPage{
+    width:100%;
+    float:none;
+     }
+    .socialMediaLinks {
+      width:100%;
+      float:none;
+    }
+}
